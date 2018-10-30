@@ -4,10 +4,11 @@ Template.novo.events({
 		e.preventDefault();
 
 		var input = $("#tarefa");
-		var nome = input.val();
+		var nome = input.val();sfbsjkfkse
 
 		//Tarefas.insert({nome: nome, data: new Date()});
 		Meteor.call("adiciona", {nome: nome});
 		input.val("");
+		sefsefse
 	}
 });
